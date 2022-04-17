@@ -60,14 +60,14 @@ a {
     height: 1px;
     width: 50%;
     background: #2f3957;
-    margin: 0em 2em; 
-} 
+    margin: 0em 2em;
+}
 
 .small-line {
     height: 1px;
     width: 20%;
     background: #2f3957;
-    margin: 0em 2em; 
+    margin: 0em 2em;
 }
 
 .sub-heading {
@@ -136,7 +136,7 @@ margin-top: 4em;
     width: auto;
     box-shadow: 0px 8px 24px #00032c4f;
     margin: 2em 0em;
-    
+
 }
 
 .project-body {
@@ -156,8 +156,8 @@ margin-top: 4em;
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: 0;  
-    border-radius: 5px;  
+    z-index: 0;
+    border-radius: 5px;
 }
 
 .project-opacity {
@@ -187,15 +187,13 @@ margin-top: 4em;
 
 .last-p {
     width: 60%;
-    margin: auto;
-    margin-bottom: 2.5em;
 }
 
 .hello-button {
     border: solid #4cc9f0 ;
+    display: inline-block;
     border-radius: 5px;
-    padding: 1em 2em;
-    margin-top: 1em;
+    padding: 1rem 2rem;
     transition: 0.5s;
 }
 
@@ -209,14 +207,13 @@ margin-top: 4em;
     width: 2em;
     height: 2em;
     stroke: #aeb9df;
-    margin-right: 0.5em;
     transition: 0.5s;
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
-    margin: 3em 0em;
+    margin: 2em 0em;
     gap: 1em;
 }
 
