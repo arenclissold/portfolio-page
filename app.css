@@ -86,8 +86,12 @@ a {
   width: 100%;
   margin-bottom: 0.5em;
 }
+.skill-list {
+  margin-top: 2em;
+  width: 80%;
+}
 
-#skill-list>li {
+.skill-list>li {
   display: inline;
 }
 
@@ -102,7 +106,7 @@ a {
 
 .photo-parent {
   position: relative;
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 .photo-border {
