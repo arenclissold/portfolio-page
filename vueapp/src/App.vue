@@ -71,7 +71,7 @@
           </div>
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col col">
+              <div class="col">
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Totam sunt unde aliquid soluta maiores voluptatem fugiat
