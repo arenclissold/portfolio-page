@@ -48,7 +48,7 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col">
+      <div class="col col-lg-10">
         <section>
           <h5>Hi, my name is</h5>
           <h1>Aren</h1>
@@ -114,7 +114,7 @@
               <div class="col">
                 <div class="flex-center">
                   <div id="projects" class="photo-parent">
-                    <img src="assets/test_pic.png" alt="profile picture" id="photo" />
+                    <img src="./assets/test_pic.jpeg" alt="profile picture" id="photo" />
                     <div class="photo-border"></div>
                   </div>
                 </div>
@@ -133,7 +133,7 @@
               <div class="project-opacity"></div>
               <img
                 class="project-img"
-                src=""
+                src="./assets/hiking_pic.jpg"
                 alt="camping"
               />
               <div class="project-body">
@@ -190,7 +190,7 @@
               <div class="project-opacity"></div>
               <img
                 class="project-img"
-                src=""
+                src="./assets/hiking_pic.jpg"
                 alt="camping"
               />
               <div class="project-body">
@@ -246,7 +246,7 @@
               <div class="project-opacity"></div>
               <img
                 class="project-img"
-                src=""
+                src="./assets/hiking_pic.jpg"
                 alt="camping"
               />
               <div class="project-body">
@@ -376,7 +376,7 @@ export default {
 </script>
 
 <style>
-body {
+#app {
   margin: 0;
   background-color: #0a1128;
   color: #aeb9df;
