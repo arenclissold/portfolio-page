@@ -3,8 +3,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-to-top">
     <div class="container-fluid">
       <a class="navbar-brand relative" href="#"
-        ><span class="initial">A</span
-        ><svg
+        ><span class="initial">A</span>
+        <svg
           class="brand"
           xmlns="http://www.w3.org/2000/svg"
           role="img"
@@ -15,7 +15,7 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         ></svg>
-        <title>Aren</title>>
+        <title>Aren</title>
         <polygon points="50 3,100 28,100 75, 50 100,3 75,3 25"
       /></a>
       <button
@@ -114,7 +114,11 @@
               <div class="col">
                 <div class="flex-center">
                   <div id="projects" class="photo-parent">
-                    <img src="./assets/test_pic.jpeg" alt="profile picture" id="photo" />
+                    <img
+                      src="./assets/test_pic.jpeg"
+                      alt="profile picture"
+                      id="photo"
+                    />
                     <div class="photo-border"></div>
                   </div>
                 </div>
@@ -371,8 +375,7 @@
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style>
