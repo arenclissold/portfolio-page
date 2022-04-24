@@ -41,7 +41,7 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-        <a href="" class="button-link">Resume</a>
+        <a href="" class="button-link external-link">Resume</a>
       </div>
     </div>
   </nav>
@@ -173,7 +173,7 @@
                       role="img"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="currentColor"
+                      stroke="gray"
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -229,7 +229,7 @@
                       role="img"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="currentColor"
+                      stroke="gray"
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -285,7 +285,7 @@
                       role="img"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="currentColor"
+                      stroke="gray"
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -316,7 +316,7 @@
             facilis, aliquam illum voluptatibus suscipit eum dolorem rerum
             ratione odio assumenda beatae laudantium impedit nostrum.
           </p>
-          <a href="mailto:arenclissold@gmail.com" class="hello-button"
+          <a href="mailto:arenclissold@gmail.com" class="hello-button external-link"
             >Say Hello</a
           >
         </section>
@@ -374,7 +374,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+};
 </script>
 
 <style>
@@ -385,9 +387,18 @@ export default {};
   font-family: "Roboto", sans-serif;
 }
 
-svg:hover {
+.external-link {
+  text-decoration: none;
+  color: #4cc9f0;
+}
+
+.project-git:hover {
   stroke: #4cc9f0;
 }
+.project-link svg:hover {
+  stroke: #4cc9f0;
+}
+
 
 .centered {
   text-align: center;
@@ -439,11 +450,6 @@ section {
 .button-link:hover {
   color: #0a1128;
   background-color: #4cc9f0;
-}
-
-a {
-  text-decoration: none;
-  color: #4cc9f0;
 }
 
 .line {
