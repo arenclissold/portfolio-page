@@ -2,30 +2,12 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-to-top">
     <div class="container-fluid">
-      <a class="navbar-brand relative" href="#"
-        ><span class="initial">A</span>
-        <svg
-          class="brand"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          viewBox="0 0 100 100"
-          fill="none"
-          stroke="gray"
-          stroke-width="4"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></svg>
-        <title>Aren</title>
-        <polygon points="50 3,100 28,100 75, 50 100,3 75,3 25"
-      /></a>
+      <a class="navbar-brand relative" href="#"><brand-icon /></a>
       <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -150,42 +132,8 @@
                   Express| MongoDB | mongoose | Node | REST
                 </p>
                 <div class="project-links">
-                  <a href=""
-                    ><svg
-                      class="project-git"
-                      xmlns="http://www.w3.org/2000/svg"
-                      role="img"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="gray"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <title>GitHub</title>
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                      ></path></svg
-                  ></a>
-                  <a href="" class="project-link"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      role="img"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="gray"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="project-link"
-                    >
-                      <title>External Link</title>
-                      <path
-                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                      ></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line></svg
-                  ></a>
+                  <a href=""><git-hub-icon /></a>
+                  <a href="" class="project-link"><project-link-icon /></a>
                 </div>
               </div>
             </div>
@@ -206,42 +154,8 @@
                   Express| MongoDB | mongoose | Node | REST
                 </p>
                 <div class="project-links">
-                  <a href=""
-                    ><svg
-                      class="project-git"
-                      xmlns="http://www.w3.org/2000/svg"
-                      role="img"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="gray"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <title>GitHub</title>
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                      ></path></svg
-                  ></a>
-                  <a href="" class="project-link"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      role="img"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="gray"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="project-link"
-                    >
-                      <title>External Link</title>
-                      <path
-                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                      ></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line></svg
-                  ></a>
+                  <a href=""><git-hub-icon /></a>
+                  <a href="" class="project-link"><project-link-icon /></a>
                 </div>
               </div>
             </div>
@@ -262,42 +176,8 @@
                   Express| MongoDB | mongoose | Node | REST
                 </p>
                 <div class="project-links">
-                  <a href=""
-                    ><svg
-                      class="project-git"
-                      xmlns="http://www.w3.org/2000/svg"
-                      role="img"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="gray"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <title>GitHub</title>
-                      <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                      ></path></svg
-                  ></a>
-                  <a href="" class="project-link"
-                    ><svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      role="img"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="gray"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="project-link"
-                    >
-                      <title>External Link</title>
-                      <path
-                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                      ></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line></svg
-                  ></a>
+                  <a href=""><git-hub-icon /></a>
+                  <a href="" class="project-link"><project-link-icon /></a>
                 </div>
               </div>
             </div>
@@ -316,56 +196,16 @@
             facilis, aliquam illum voluptatibus suscipit eum dolorem rerum
             ratione odio assumenda beatae laudantium impedit nostrum.
           </p>
-          <a href="mailto:arenclissold@gmail.com" class="hello-button external-link"
+          <a
+            href="mailto:arenclissold@gmail.com"
+            class="hello-button external-link"
             >Say Hello</a
           >
         </section>
         <footer>
           <div class="footer-links">
-            <a href=""
-              ><svg
-                class="project-git"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="gray"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>GitHub</title>
-                <path
-                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                ></path></svg
-            ></a>
-            <a href=""
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="linkedin"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>LinkedIn</title>
-                <path
-                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-                ></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle></svg
-            ></a>
-            <a href="mailto:arenclissold@gmail.com"
-              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"
-                />
-              </svg>
-            </a>
+            <a href=""><git-hub-icon /></a>
+            <a href=""><linked-in-icon /></a>
           </div>
         </footer>
       </div>
@@ -373,10 +213,11 @@
   </div>
 </template>
 
-<script>
-export default {
-
-};
+<script setup>
+import GitHubIcon from "../components/GitHubIcon.vue";
+import ProjectLinkIcon from "../components/ProjectLinkIcon.vue";
+import LinkedInIcon from "../components/LinkedInIcon.vue";
+import BrandIcon from "../components/BrandIcon";
 </script>
 
 <style>
@@ -393,12 +234,11 @@ export default {
 }
 
 .project-git:hover {
-  stroke: #4cc9f0;
+  color: #4cc9f0;
 }
 .project-link svg:hover {
   stroke: #4cc9f0;
 }
-
 
 .centered {
   text-align: center;
@@ -571,7 +411,7 @@ section {
 .project-git {
   width: 2em;
   height: 2em;
-  stroke: #aeb9df;
+  color: #aeb9df;
   margin-right: 0.5em;
   transition: 0.5s;
 }
