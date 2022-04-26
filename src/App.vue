@@ -233,13 +233,6 @@ import BrandIcon from "../components/BrandIcon";
   color: #4cc9f0;
 }
 
-.project-git:hover {
-  color: #4cc9f0;
-}
-.project-link svg:hover {
-  stroke: #4cc9f0;
-}
-
 .centered {
   text-align: center;
 }
@@ -263,7 +256,7 @@ import BrandIcon from "../components/BrandIcon";
 }
 
 .brand {
-  stroke: #4cc9f0;
+  color: #4cc9f0;
   height: 50px;
   width: 75px;
 }
@@ -408,7 +401,7 @@ section {
   border-radius: 5px;
 }
 
-.project-git {
+.link-icon {
   width: 2em;
   height: 2em;
   color: #aeb9df;
@@ -416,11 +409,8 @@ section {
   transition: 0.5s;
 }
 
-.project-link {
-  width: 2em;
-  height: 2em;
-  stroke: #aeb9df;
-  transition: 0.5s;
+.link-icon:hover {
+  color: #4cc9f0;
 }
 
 .last-p {

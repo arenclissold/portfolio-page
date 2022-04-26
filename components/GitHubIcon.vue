@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="project-git"
+    class="link-icon"
     xmlns="http://www.w3.org/2000/svg"
     role="img"
     viewBox="0 0 24 24"
