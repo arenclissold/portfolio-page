@@ -66,9 +66,9 @@
                   minus perferendis? Laborum optio quos tempora.
                 </p>
                 <ul class="skill-list">
-                  <li v-for="skill in skills" :key="skill._id">
+                  <li v-for="(skill, index) in skills" :key="skill._id">
                     {{ skill }}
-                    <div class="list-line"></div>
+                    <div v-if="index != skills.length - 1" class="list-line"></div>
                   </li>
                 </ul>
               </div>
