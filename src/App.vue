@@ -66,31 +66,10 @@
                   minus perferendis? Laborum optio quos tempora.
                 </p>
                 <ul class="skill-list">
-                  <li>Ruby</li>
-                  <div class="list-line"></div>
-                  <li>Ruby on Rails</li>
-                  <div class="list-line"></div>
-                  <li>JavaScript</li>
-                  <div class="list-line"></div>
-                  <li>DOM Manipulation</li>
-                  <div class="list-line"></div>
-                  <li>HTML5</li>
-                  <div class="list-line"></div>
-                  <li>CSS3</li>
-                  <div class="list-line"></div>
-                  <li>Git</li>
-                  <div class="list-line"></div>
-                  <li>GitHub</li>
-                  <div class="list-line"></div>
-                  <li>MongoDB</li>
-                  <div class="list-line"></div>
-                  <li>Node</li>
-                  <div class="list-line"></div>
-                  <li>Express</li>
-                  <div class="list-line"></div>
-                  <li>AJAX</li>
-                  <div class="list-line"></div>
-                  <li>REST APIs</li>
+                  <li v-for="skill in skills" :key="skill._id">
+                    {{ skill }}
+                    <div class="list-line"></div>
+                  </li>
                 </ul>
               </div>
               <div class="col">
@@ -218,6 +197,21 @@ import GitHubIcon from "../components/GitHubIcon.vue";
 import ProjectLinkIcon from "../components/ProjectLinkIcon.vue";
 import LinkedInIcon from "../components/LinkedInIcon.vue";
 import BrandIcon from "../components/BrandIcon";
+const skills = [
+  "Ruby",
+  "Ruby on Rails",
+  "JavaScript",
+  "DOM Manipulation",
+  "HTML5",
+  "CSS3",
+  "Git",
+  "GitHub",
+  "MongoDB",
+  "Node",
+  "Express",
+  "AJAX",
+  "REST APIs",
+];
 </script>
 
 <style>
