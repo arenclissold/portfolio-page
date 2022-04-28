@@ -30,6 +30,13 @@
 
   <div class="container">
     <div class="row justify-content-center">
+      <div class="col col-lg-2">
+        <div class="sidebar">
+          <div><a class="sidebar-link" href=""><git-hub-icon/></a></div>
+          <div><a class="sidebar-link" href=""><linked-in-icon /></a></div>
+          <div class="side-line"></div>
+        </div>
+      </div>
       <div class="col col-lg-10">
         <section>
           <h5>Hi, my name is</h5>
@@ -53,7 +60,7 @@
           </div>
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col">
+              <div class="col-lg">
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Totam sunt unde aliquid soluta maiores voluptatem fugiat
@@ -72,7 +79,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="col">
+              <div class="col-lg">
                 <div class="flex-center">
                   <div id="projects" class="photo-parent">
                     <img
@@ -222,6 +229,15 @@ const skills = [
   font-family: "Roboto", sans-serif;
 }
 
+.tagcloud {
+  font-size: 20px;
+  font-weight: 650;
+  margin-left: 30%;
+}
+.tagcloud--item:hover {
+  color: #36454f;
+}
+
 .external-link {
   text-decoration: none;
   color: #4cc9f0;
@@ -261,6 +277,26 @@ const skills = [
   top: 12px;
   font-size: 25px;
   color: #4cc9f0;
+}
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0%;
+}
+
+.side-line {
+  height: 300px;
+  width: 2px;
+  background: #2f3957;
+  margin-top: 1em;
+}
+
+.sidebar-link {
+  margin-bottom: 5em;
 }
 
 section {
