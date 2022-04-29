@@ -33,10 +33,10 @@
       <div class="col col-1">
         <div class="sidebar">
           <div>
-            <a href=""><git-hub-icon /></a>
+            <a class="push-bottom" href=""><git-hub-icon /></a>
           </div>
           <div>
-            <a href=""><linked-in-icon /></a>
+            <a class="" href=""><linked-in-icon /></a>
           </div>
           <div class="side-line"></div>
         </div>
@@ -300,17 +300,22 @@ const skills = [
   flex-direction: column;
   align-items: center;
   bottom: 0%;
+  height: 50%;
 }
 
 .side-line {
-  height: 250px;
+  height: 100%;
   width: 2px;
   background: #2f3957;
   margin-top: 1em;
 }
 
+.push-bottom {
+  position: relative;
+  bottom: 20px;
+}
+
 .sidebar-link {
-  margin-bottom: 5em;
   text-decoration: none;
   color: currentColor;
   transition: 0.5s;
@@ -322,7 +327,7 @@ const skills = [
 
 .sideways {
   transform: rotate(270deg);
-  margin-bottom: 4.5em;
+  margin-bottom: 5em;
 }
 
 section {
