@@ -30,7 +30,7 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col col-1">
+      <div class="col col-1 d-none d-lg-block">
         <div class="sidebar">
           <div>
             <a class="push-bottom" href=""><git-hub-icon /></a>
@@ -202,7 +202,7 @@
           </div>
         </footer>
       </div>
-        <div class="col col-1">
+        <div class="col col-1 d-none d-lg-block">
         <div class="sidebar">
           <div class="sideways">
             <a class="sidebar-link" href="mailto:arenclissold@gmail.com">arenclissold@gmail.com</a>
