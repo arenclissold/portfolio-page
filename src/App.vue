@@ -30,14 +30,18 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col col-lg-2">
+      <div class="col col-1">
         <div class="sidebar">
-          <div><a class="sidebar-link" href=""><git-hub-icon/></a></div>
-          <div><a class="sidebar-link" href=""><linked-in-icon /></a></div>
+          <div>
+            <a href=""><git-hub-icon /></a>
+          </div>
+          <div>
+            <a href=""><linked-in-icon /></a>
+          </div>
           <div class="side-line"></div>
         </div>
       </div>
-      <div class="col col-lg-10">
+      <div class="col col-10">
         <section>
           <h5>Hi, my name is</h5>
           <h1>Aren</h1>
@@ -75,7 +79,10 @@
                 <ul class="skill-list">
                   <li v-for="(skill, index) in skills" :key="skill._id">
                     {{ skill }}
-                    <div v-if="index != skills.length - 1" class="list-line"></div>
+                    <div
+                      v-if="index != skills.length - 1"
+                      class="list-line"
+                    ></div>
                   </li>
                 </ul>
               </div>
@@ -195,6 +202,14 @@
           </div>
         </footer>
       </div>
+        <div class="col col-1">
+        <div class="sidebar">
+          <div class="sideways">
+            <a class="sidebar-link" href="mailto:arenclissold@gmail.com">arenclissold@gmail.com</a>
+          </div>
+          <div class="side-line"></div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -283,13 +298,12 @@ const skills = [
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   bottom: 0%;
 }
 
 .side-line {
-  height: 300px;
+  height: 250px;
   width: 2px;
   background: #2f3957;
   margin-top: 1em;
@@ -297,6 +311,18 @@ const skills = [
 
 .sidebar-link {
   margin-bottom: 5em;
+  text-decoration: none;
+  color: currentColor;
+  transition: 0.5s;
+}
+
+.sidebar-link:hover {
+  color: #4cc9f0;
+}
+
+.sideways {
+  transform: rotate(270deg);
+  margin-bottom: 4.5em;
 }
 
 section {
