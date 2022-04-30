@@ -1,32 +1,34 @@
 <template>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-to-top">
-    <div class="container-fluid">
-      <a class="navbar-brand relative" href="#"><brand-icon /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        <a href="" class="button-link external-link">Resume</a>
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand relative" href="#"><brand-icon /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a href="" class="button-link external-link">Resume</a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <div class="container">
     <div class="row justify-content-center">
@@ -202,10 +204,12 @@
           </div>
         </footer>
       </div>
-        <div class="col col-1 d-none d-lg-block">
+      <div class="col col-1 d-none d-lg-block">
         <div class="sidebar">
           <div class="sideways">
-            <a class="sidebar-link" href="mailto:arenclissold@gmail.com">arenclissold@gmail.com</a>
+            <a class="sidebar-link" href="mailto:arenclissold@gmail.com"
+              >arenclissold@gmail.com</a
+            >
           </div>
           <div class="side-line"></div>
         </div>
@@ -270,14 +274,14 @@ const skills = [
   position: relative;
 }
 
-.fixed-to-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+.navbar {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(4px);
   z-index: 10;
+}
+
+.sticky-top {
+  position: fixed;
 }
 
 .brand {
