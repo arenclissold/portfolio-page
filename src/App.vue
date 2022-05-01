@@ -3,7 +3,7 @@
   <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand relative" href="#"><brand-icon /></a>
+        <a href="#"><img class="brand" src="./assets/initial.png" alt="" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -91,7 +91,8 @@
               <div class="col-lg">
                 <div class="flex-center">
                   <div id="projects" class="photo-parent">
-                    <img class="shadow-lg"
+                    <img
+                      class="shadow-lg"
                       src="./assets/test_pic.jpeg"
                       alt="profile picture"
                       id="photo"
@@ -119,7 +120,9 @@
               />
               <div class="project-body project-body-right">
                 <h3>Camping App</h3>
-                <p class="project-description project-description-right shadow-lg">
+                <p
+                  class="project-description project-description-right shadow-lg"
+                >
                   A modern styled application to find, share and review camping
                   spots. To find that perfect camp spot and miss the bad ones.
                 </p>
@@ -163,7 +166,9 @@
               />
               <div class="project-body project-body-right">
                 <h3>Camping App</h3>
-                <p class="project-description project-description-right shadow-lg">
+                <p
+                  class="project-description project-description-right shadow-lg"
+                >
                   A modern styled application to find, share and review camping
                   spots. To find that perfect camp spot and miss the bad ones.
                 </p>
@@ -222,7 +227,6 @@
 import GitHubIcon from "../components/GitHubIcon.vue";
 import ProjectLinkIcon from "../components/ProjectLinkIcon.vue";
 import LinkedInIcon from "../components/LinkedInIcon.vue";
-import BrandIcon from "../components/BrandIcon";
 const skills = [
   "Ruby",
   "Ruby on Rails",
@@ -285,17 +289,9 @@ const skills = [
 }
 
 .brand {
-  color: #4cc9f0;
-  height: 50px;
-  width: 75px;
-}
-
-.initial {
-  position: absolute;
-  left: 29px;
-  top: 12px;
-  font-size: 25px;
-  color: #4cc9f0;
+  height: 40px;
+  width: 35px;
+  margin: 10px;
 }
 
 .sidebar {
@@ -497,15 +493,15 @@ section {
   }
 
   .project-opacity-left {
-  width: 60%;
-  right: 0px;
+    width: 60%;
+    right: 0px;
   }
 
   .project-description-right {
     align-self: flex-end;
   }
 
-    .project-description {
+  .project-description {
     background-color: #001f54;
     padding: 30px;
     border-radius: 5px;
