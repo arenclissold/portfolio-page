@@ -31,9 +31,9 @@
   </div>
 
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col col-1 d-none d-lg-block">
-        <div class="sidebar">
+    <div class="row">
+      <div class="col col-1 d-none d-md-block">
+        <div class="sidebar ml-5">
           <div>
             <a class="push-bottom" href=""><git-hub-icon /></a>
           </div>
@@ -91,7 +91,7 @@
               <div class="col-lg">
                 <div class="flex-center">
                   <div id="projects" class="photo-parent">
-                    <img
+                    <img class="shadow-lg"
                       src="./assets/test_pic.jpeg"
                       alt="profile picture"
                       id="photo"
@@ -110,21 +110,43 @@
             <div class="line"></div>
           </div>
           <div class="project-cards">
-            <div class="project-card">
+            <div class="project-card mt-5">
               <div class="project-opacity"></div>
               <img
                 class="project-img"
                 src="./assets/hiking_pic.jpg"
                 alt="camping"
               />
-              <div class="project-body">
+              <div class="project-body project-body-right">
                 <h3>Camping App</h3>
-                <p class="project-description">
+                <p class="project-description project-description-right shadow-lg">
                   A modern styled application to find, share and review camping
                   spots. To find that perfect camp spot and miss the bad ones.
                 </p>
                 <p class="project-technologies">
-                  Express| MongoDB | mongoose | Node | REST
+                  Express | MongoDB | mongoose | Node | REST
+                </p>
+                <div class="project-links">
+                  <a href=""><git-hub-icon /></a>
+                  <a href="" class="project-link"><project-link-icon /></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-opacity project-opacity-left"></div>
+              <img
+                class="project-img project-img-left"
+                src="./assets/hiking_pic.jpg"
+                alt="camping"
+              />
+              <div class="project-body">
+                <h3>Camping App</h3>
+                <p class="project-description shadow-lg">
+                  A modern styled application to find, share and review camping
+                  spots. To find that perfect camp spot and miss the bad ones.
+                </p>
+                <p class="project-technologies">
+                  Express | MongoDB | mongoose | Node | REST
                 </p>
                 <div class="project-links">
                   <a href=""><git-hub-icon /></a>
@@ -139,36 +161,14 @@
                 src="./assets/hiking_pic.jpg"
                 alt="camping"
               />
-              <div class="project-body">
+              <div class="project-body project-body-right">
                 <h3>Camping App</h3>
-                <p>
+                <p class="project-description project-description-right shadow-lg">
                   A modern styled application to find, share and review camping
                   spots. To find that perfect camp spot and miss the bad ones.
                 </p>
                 <p class="project-technologies">
-                  Express| MongoDB | mongoose | Node | REST
-                </p>
-                <div class="project-links">
-                  <a href=""><git-hub-icon /></a>
-                  <a href="" class="project-link"><project-link-icon /></a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <div class="project-opacity"></div>
-              <img
-                class="project-img"
-                src="./assets/hiking_pic.jpg"
-                alt="camping"
-              />
-              <div class="project-body">
-                <h3>Camping App</h3>
-                <p>
-                  A modern styled application to find, share and review camping
-                  spots. To find that perfect camp spot and miss the bad ones.
-                </p>
-                <p class="project-technologies">
-                  Express| MongoDB | mongoose | Node | REST
+                  Express | MongoDB | mongoose | Node | REST
                 </p>
                 <div class="project-links">
                   <a href=""><git-hub-icon /></a>
@@ -204,7 +204,7 @@
           </div>
         </footer>
       </div>
-      <div class="col col-1 d-none d-lg-block">
+      <div class="col col-1 d-none d-md-block">
         <div class="sidebar">
           <div class="sideways">
             <a class="sidebar-link" href="mailto:arenclissold@gmail.com"
@@ -305,6 +305,7 @@ const skills = [
   align-items: center;
   bottom: 0%;
   height: 50%;
+  width: 100px;
 }
 
 .side-line {
@@ -433,7 +434,7 @@ section {
   height: 20em;
   width: auto;
   box-shadow: 0px 8px 24px #00032c4f;
-  margin: 2em 0em;
+  margin-top: 7em;
 }
 
 .project-body {
@@ -464,6 +465,51 @@ section {
   background-color: #001f54;
   opacity: 0.8;
   border-radius: 5px;
+}
+
+@media (min-width: 992px) {
+  .project-body-right {
+    text-align: right;
+    width: 55%;
+    float: right;
+  }
+
+  .project-body {
+    width: 55%;
+  }
+
+  .project-opacity:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .project-img {
+    width: 60%;
+  }
+
+  .project-img-left {
+    width: 60%;
+    right: 0px;
+  }
+
+  .project-opacity {
+    width: 60%;
+    transition: background-color 1s, width 0s;
+  }
+
+  .project-opacity-left {
+  width: 60%;
+  right: 0px;
+  }
+
+  .project-description-right {
+    align-self: flex-end;
+  }
+
+    .project-description {
+    background-color: #001f54;
+    padding: 30px;
+    border-radius: 5px;
+  }
 }
 
 .link-icon {
