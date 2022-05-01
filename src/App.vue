@@ -30,9 +30,9 @@
     </nav>
   </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col col-1 d-none d-md-block">
+      <div class="col col-1 d-none d-md-flex justify-content-center">
         <div class="sidebar ml-5">
           <div>
             <a class="push-bottom" href=""><git-hub-icon /></a>
@@ -43,7 +43,7 @@
           <div class="side-line"></div>
         </div>
       </div>
-      <div class="col col-10">
+      <div class="col mx-4">
         <section>
           <h5>Hi, my name is</h5>
           <h1>Aren</h1>
@@ -204,7 +204,7 @@
           </div>
         </footer>
       </div>
-      <div class="col col-1 d-none d-md-block">
+      <div class="col col-1 d-none d-md-flex justify-content-center">
         <div class="sidebar">
           <div class="sideways">
             <a class="sidebar-link" href="mailto:arenclissold@gmail.com"
@@ -304,7 +304,7 @@ const skills = [
   flex-direction: column;
   align-items: center;
   bottom: 0%;
-  height: 50%;
+  height: 250px;
   width: 100px;
 }
 
