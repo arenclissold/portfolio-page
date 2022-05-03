@@ -13,14 +13,14 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+            <li class="nav-item mx-2">
+              <a class="nav-link mx-2" href="#projects">Projects</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -284,6 +284,16 @@ const skills = [
   z-index: 10;
 }
 
+.navbar-nav {
+  position: relative;
+  right: 0;
+}
+
+.nav-link {
+  color: rgb(178, 188, 190)!important;
+}
+
+
 .sticky-top {
   position: fixed;
 }
@@ -340,11 +350,12 @@ section {
   border-radius: 5px;
   padding: 0.5em 1em;
   transition: 0.5s;
+  margin: 0.5em;
 }
 
 .button-link:hover {
-  color: #0a1128;
-  background-color: #4cc9f0;
+  color: #4cc9f0;
+  background-color: #4ccaf02b;
 }
 
 .line {
@@ -533,8 +544,8 @@ section {
 }
 
 .hello-button:hover {
-  color: #0a1128;
-  background-color: #4cc9f0;
+  color: #4cc9f0;
+  background-color: #4ccaf02b;
 }
 
 .linkedin {
