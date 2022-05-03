@@ -1,7 +1,7 @@
 <template>
   <!-- navbar -->
   <div class="sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container-fluid">
         <a href="#"><img class="brand" src="./assets/initial.png" alt="" /></a>
         <button
@@ -13,7 +13,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item mx-2">
               <a class="nav-link" href="#about">About</a>
             </li>
