@@ -18,7 +18,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link mx-2" href="#projects">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="#contact">Contact</a>
@@ -245,10 +245,16 @@ const skills = [
 </script>
 
 <style>
+:root {
+  --primary-color: #4cc9f0;
+  --secondary-color: #aeb9df;
+  --line-color: #2f3957;
+}
+
 #app {
   margin: 0;
   background-color: #0a1128;
-  color: #aeb9df;
+  color: var(--secondary-color);
   font-family: "Roboto", sans-serif;
 }
 
@@ -263,7 +269,7 @@ const skills = [
 
 .external-link {
   text-decoration: none;
-  color: #4cc9f0;
+  color: var(--primary-color);
 }
 
 .centered {
@@ -282,11 +288,6 @@ const skills = [
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(4px);
   z-index: 10;
-}
-
-.navbar-nav {
-  position: relative;
-  right: 0;
 }
 
 .nav-link {
@@ -317,7 +318,7 @@ const skills = [
 .side-line {
   height: 100%;
   width: 2px;
-  background: #2f3957;
+  background: var(--line-color);
   margin-top: 1em;
 }
 
@@ -333,7 +334,7 @@ const skills = [
 }
 
 .sidebar-link:hover {
-  color: #4cc9f0;
+  color: var(--primary-color);
 }
 
 .sideways {
@@ -346,7 +347,7 @@ section {
 }
 
 .button-link {
-  border: solid #4cc9f0;
+  border: solid var(--primary-color);
   border-radius: 5px;
   padding: 0.5em 1em;
   transition: 0.5s;
@@ -354,21 +355,21 @@ section {
 }
 
 .button-link:hover {
-  color: #4cc9f0;
+  color: var(--primary-color);
   background-color: #4ccaf02b;
 }
 
 .line {
   height: 1px;
   width: 50%;
-  background: #2f3957;
+  background: var(--line-color);
   margin: 0em 2em;
 }
 
 .small-line {
   height: 1px;
   width: 20%;
-  background: #2f3957;
+  background: var(--line-color);
   margin: 0em 2em;
 }
 
@@ -401,7 +402,7 @@ section {
 }
 
 .photo-border {
-  border: 0.2em solid #4cc9f0;
+  border: 0.2em solid var(--primary-color);
   border-radius: 0.4em;
   top: 1.5em;
   left: 1.5em;
@@ -522,13 +523,13 @@ section {
 .link-icon {
   width: 2em;
   height: 2em;
-  color: #aeb9df;
+  color: var(--secondary-color);
   margin-right: 0.5em;
   transition: 0.5s;
 }
 
 .link-icon:hover {
-  color: #4cc9f0;
+  color: var(--primary-color);
 }
 
 .last-p {
@@ -536,7 +537,7 @@ section {
 }
 
 .hello-button {
-  border: solid #4cc9f0;
+  border: solid var(--primary-color);
   display: inline-block;
   border-radius: 5px;
   padding: 1rem 2rem;
@@ -544,14 +545,14 @@ section {
 }
 
 .hello-button:hover {
-  color: #4cc9f0;
+  color: var(--primary-color);
   background-color: #4ccaf02b;
 }
 
 .linkedin {
   width: 2em;
   height: 2em;
-  stroke: #aeb9df;
+  stroke: var(--secondary-color);
   transition: 0.5s;
 }
 
@@ -563,6 +564,6 @@ section {
 }
 
 .mail {
-  stroke: #aeb9df;
+  stroke: var(--secondary-color);
 }
 </style>
