@@ -3,7 +3,7 @@
   <div class="sticky-top">
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container-fluid">
-        <a href="#"><img class="brand" src="./assets/initial.png" alt="" /></a>
+        <a href="#"><img class="brand" src="./assets/initial.png" alt="brand" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -20,11 +20,11 @@
             <li class="nav-item mx-2">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
-            <li class="nav-item mx-2">
+            <li class="nav-item mx-2 mb-md-0 mb-2">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <a href="" class="button-link external-link">Resume</a>
+          <a href="" class="button-link external-link mx-2 mb-md-0">Resume</a>
         </div>
       </div>
     </nav>
@@ -45,7 +45,7 @@
       </div>
       <div class="col mx-4">
         <section>
-          <h5>Hi, my name is</h5>
+          <h3>Hi, my name is</h3>
           <h1>Aren</h1>
           <h2>I build things for the web</h2>
           <p id="about">
@@ -245,6 +245,8 @@ const skills = [
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 :root {
   --primary-color: #4cc9f0;
   --secondary-color: #aeb9df;
@@ -357,6 +359,12 @@ section {
 .button-link:hover {
   color: var(--primary-color);
   background-color: #4ccaf02b;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: var(--primary-color);
+  font-size: 16px!important;
 }
 
 .line {
