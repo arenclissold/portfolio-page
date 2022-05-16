@@ -48,7 +48,7 @@
           <h3>Hi, my name is</h3>
           <h1>Aren</h1>
           <h2>I build things for the web</h2>
-          <p id="about">
+          <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum sunt
             fugit consectetur in magnam, dolore quisquam incidunt similique
             praesentium officia quaerat, nostrum blanditiis rerum corporis
@@ -58,6 +58,7 @@
             possimus molestias eveniet dolorum atque quaerat optio vero, quis
             ipsam!
           </p>
+          <span id="about"></span>
         </section>
         <section>
           <div class="sub-heading">
@@ -90,7 +91,7 @@
               </div>
               <div class="col-lg">
                 <div class="flex-center">
-                  <div id="projects" class="photo-parent">
+                  <div  class="photo-parent">
                     <img
                       class="shadow-lg"
                       src="./assets/test_pic.jpeg"
@@ -102,6 +103,7 @@
                 </div>
               </div>
             </div>
+            <span id="projects"></span>
           </div>
         </section>
 
