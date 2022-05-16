@@ -35,10 +35,10 @@
       <div class="col col-1 d-none d-md-flex justify-content-center">
         <div class="sidebar ml-5">
           <div>
-            <a class="push-bottom" href=""><git-hub-icon /></a>
+            <a class="push-bottom" href="https://github.com/arenclissold"><git-hub-icon/></a>
           </div>
           <div>
-            <a class="" href=""><linked-in-icon /></a>
+            <a href="https://www.linkedin.com/in/arenclissold/"><linked-in-icon/></a>
           </div>
           <div class="side-line"></div>
         </div>
@@ -206,8 +206,8 @@
         </section>
         <footer>
           <div class="footer-links">
-            <a href=""><git-hub-icon /></a>
-            <a href=""><linked-in-icon /></a>
+            <a href="https://github.com/arenclissold"><git-hub-icon /></a>
+            <a href="https://www.linkedin.com/in/arenclissold/"><linked-in-icon /></a>
           </div>
         </footer>
       </div>
