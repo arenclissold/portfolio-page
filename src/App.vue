@@ -314,13 +314,14 @@ const skills = [
   display: flex;
   flex-direction: column;
   align-items: center;
-  bottom: 0%;
-  height: 250px;
+  justify-content: end;
+  height: 100%;
+  bottom: 0px;
   width: 100px;
 }
 
 .side-line {
-  height: 100%;
+  height: 200px;
   width: 2px;
   background: var(--line-color);
   margin-top: 1em;
