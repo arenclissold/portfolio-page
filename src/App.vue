@@ -3,7 +3,7 @@
   <div class="sticky-top">
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container-fluid">
-        <a href="#"><img class="brand" src="./assets/initial.png" alt="brand" /></a>
+        <a href="#" class="brand">AC</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,10 +35,10 @@
       <div class="col col-1 d-none d-md-flex justify-content-center">
         <div class="sidebar ml-5">
           <div>
-            <a class="push-bottom" href="https://github.com/arenclissold"><git-hub-icon/></a>
+            <a class="push-bottom" href="https://github.com/arenclissold"><git-hub-icon /></a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/arenclissold/"><linked-in-icon/></a>
+            <a href="https://www.linkedin.com/in/arenclissold/"><linked-in-icon /></a>
           </div>
           <div class="side-line"></div>
         </div>
@@ -48,50 +48,34 @@
           <h3>Hi, my name is</h3>
           <h1>Aren</h1>
           <h2>I build things for the web</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum sunt
-            fugit consectetur in magnam, dolore quisquam incidunt similique
-            praesentium officia quaerat, nostrum blanditiis rerum corporis
-            eveniet nisi! Voluptates, ex reiciendis. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Dolore, odit. Necessitatibus vitae
-            delectus voluptates pariatur. Nihil numquam, illo explicabo quas
-            possimus molestias eveniet dolorum atque quaerat optio vero, quis
-            ipsam!
-          </p>
-          <span id="about"></span>
         </section>
         <section>
           <div class="sub-heading">
-            <h2>About</h2>
+            <h2 id="about">About</h2>
             <div class="line"></div>
           </div>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg">
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Totam sunt unde aliquid soluta maiores voluptatem fugiat
-                  excepturi, eveniet, expedita ratione magni culpa optio
-                  adipisci omnis, voluptatum facilis aliquam cum nesciunt.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam sunt unde aliquid
+                  soluta maiores voluptatem fugiat excepturi, eveniet, expedita ratione magni culpa
+                  optio adipisci omnis, voluptatum facilis aliquam cum nesciunt.
                   <br /><br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ducimus hic, repudiandae ad iusto atque impedit fugiat amet
-                  numquam nihil laboriosam nulla pariatur soluta dignissimos
-                  minus perferendis? Laborum optio quos tempora.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic, repudiandae
+                  ad iusto atque impedit fugiat amet numquam nihil laboriosam nulla pariatur soluta
+                  dignissimos minus perferendis? Laborum optio quos tempora.
                 </p>
                 <ul class="skill-list">
                   <li v-for="(skill, index) in skills" :key="skill._id">
                     {{ skill }}
-                    <div
-                      v-if="index != skills.length - 1"
-                      class="list-line"
-                    ></div>
+                    <div v-if="index != skills.length - 1" class="list-line"></div>
                   </li>
                 </ul>
               </div>
               <div class="col-lg">
                 <div class="flex-center">
-                  <div  class="photo-parent">
+                  <div class="photo-parent">
                     <img
                       class="shadow-lg"
                       src="./assets/test_pic.jpeg"
@@ -115,25 +99,19 @@
           <div class="project-cards">
             <div class="project-card mt-5">
               <div class="project-opacity"></div>
-              <img
-                class="project-img"
-                src="./assets/hiking_pic.jpg"
-                alt="camping"
-              />
+              <img class="project-img" src="./assets/dayt_image.jpeg" alt="camping" />
               <div class="project-body project-body-right">
-                <h3>Camping App</h3>
-                <p
-                  class="project-description project-description-right shadow-lg"
-                >
-                  A modern styled application to find, share and review camping
-                  spots. To find that perfect camp spot and miss the bad ones.
+                <h3>Dayt</h3>
+                <p class="project-description project-description-right shadow-lg">
+                  Dayt is a travel planning web app designed to make planning your next trip simple and
+                  easy while providing authentic experiences recommended by locals. Featuring geocoding, image upload, authentication and front end npm packages for a smooth user experience.
                 </p>
                 <p class="project-technologies">
-                  Express | MongoDB | mongoose | Node | REST
+                  Ruby On Rails | Postgresql | JavaScript | SCSS | REST
                 </p>
                 <div class="project-links">
-                  <a href=""><git-hub-icon /></a>
-                  <a href="" class="project-link"><project-link-icon /></a>
+                  <a href="https://github.com/hwalk1/dayt_app"><git-hub-icon /></a>
+                  <a href="https://www.dayt.travel" class="project-link"><project-link-icon /></a>
                 </div>
               </div>
             </div>
@@ -141,45 +119,32 @@
               <div class="project-opacity project-opacity-left"></div>
               <img
                 class="project-img project-img-left"
-                src="./assets/hiking_pic.jpg"
+                src="./assets/gig-fox.png"
                 alt="camping"
               />
               <div class="project-body">
                 <h3>Camping App</h3>
                 <p class="project-description shadow-lg">
-                  A modern styled application to find, share and review camping
-                  spots. To find that perfect camp spot and miss the bad ones.
+                  A web app for posting and booking venues around Melbourne. Post your own venue and see it appear on the map. Featuring geocoding, image upload, authentication and authorisation.
                 </p>
-                <p class="project-technologies">
-                  Express | MongoDB | mongoose | Node | REST
-                </p>
+                <p class="project-technologies">Ruby On Rails | Postgresql | JavaScript | SCSS | REST</p>
                 <div class="project-links">
-                  <a href=""><git-hub-icon /></a>
-                  <a href="" class="project-link"><project-link-icon /></a>
+                  <a href="https://github.com/hwalk1/gigfox"><git-hub-icon /></a>
+                  <a href="https://gig-fox.herokuapp.com/" class="project-link"><project-link-icon /></a>
                 </div>
               </div>
             </div>
             <div class="project-card">
               <div class="project-opacity"></div>
-              <img
-                class="project-img"
-                src="./assets/hiking_pic.jpg"
-                alt="camping"
-              />
+              <img class="project-img" src="./assets/hiking_pic.jpg" alt="camping" />
               <div class="project-body project-body-right">
-                <h3>Camping App</h3>
-                <p
-                  class="project-description project-description-right shadow-lg"
-                >
-                  A modern styled application to find, share and review camping
-                  spots. To find that perfect camp spot and miss the bad ones.
+                <h3>Coming Soon - Camping App</h3>
+                <p class="project-description project-description-right shadow-lg">
+                  A modern application to find, share and review camping spots. Helping you discover those magical camping spots and miss the so-so ones.
                 </p>
-                <p class="project-technologies">
-                  Express | MongoDB | mongoose | Node | REST
-                </p>
+                <p class="project-technologies">Express | MongoDB | mongoose | Node | REST</p>
                 <div class="project-links">
-                  <a href=""><git-hub-icon /></a>
-                  <a href="" class="project-link"><project-link-icon /></a>
+                  <a href="https://github.com/arenclissold/open-trivia"><git-hub-icon /></a>
                 </div>
               </div>
             </div>
@@ -193,16 +158,11 @@
             <div class="small-line"></div>
           </div>
           <p class="last">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-            corrupti laboriosam architecto incidunt aliquid reprehenderit
-            facilis, aliquam illum voluptatibus suscipit eum dolorem rerum
-            ratione odio assumenda beatae laudantium impedit nostrum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, corrupti laboriosam
+            architecto incidunt aliquid reprehenderit facilis, aliquam illum voluptatibus suscipit
+            eum dolorem rerum ratione odio assumenda beatae laudantium impedit nostrum.
           </p>
-          <a
-            href="mailto:arenclissold@gmail.com"
-            class="hello-button external-link"
-            >Say Hello</a
-          >
+          <a href="mailto:arenclissold@gmail.com" class="hello-button external-link">Say Hello</a>
         </section>
         <footer>
           <div class="footer-links">
@@ -214,9 +174,7 @@
       <div class="col col-1 d-none d-md-flex justify-content-center">
         <div class="sidebar">
           <div class="sideways">
-            <a class="sidebar-link" href="mailto:arenclissold@gmail.com"
-              >arenclissold@gmail.com</a
-            >
+            <a class="sidebar-link" href="mailto:arenclissold@gmail.com">arenclissold@gmail.com</a>
           </div>
           <div class="side-line"></div>
         </div>
@@ -247,7 +205,7 @@ const skills = [
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 :root {
   --primary-color: #4cc9f0;
@@ -295,9 +253,8 @@ const skills = [
 }
 
 .nav-link {
-  color: rgb(178, 188, 190)!important;
+  color: rgb(178, 188, 190) !important;
 }
-
 
 .sticky-top {
   position: fixed;
@@ -365,9 +322,9 @@ section {
 }
 
 h3 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: var(--primary-color);
-  font-size: 16px!important;
+  font-size: 16px !important;
 }
 
 .line {
@@ -474,6 +431,8 @@ h3 {
   position: absolute;
   z-index: 0;
   border-radius: 5px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .project-opacity {
@@ -513,6 +472,7 @@ h3 {
   .project-opacity {
     width: 60%;
     transition: background-color 1s, width 0s;
+    opacity: 0;
   }
 
   .project-opacity-left {
